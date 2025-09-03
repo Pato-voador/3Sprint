@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Função void
+        function calcularArea1 (largura, comprimento) {
+            var area = largura * comprimento;
+            document.write('A área é de ' + area + ' metros quadrados.');
+        }
+        calcularArea1 (100,50);
+
+        //Função return
+        function calcularArea2 (largura, comprimento) {
+            var area = largura * comprimento;
+            return area;
+        }
+        var area = calcularArea2 (20,50);
+        document.write('<br>A área é de ' + area + ' metros quadrados.');
+    </script>
+</body>
+</html>
